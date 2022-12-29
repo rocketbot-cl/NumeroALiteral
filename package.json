@@ -2,9 +2,9 @@
   "author": "Nicolas Liendro",
   "description": "Convert a number to a literal",
   "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
-  "version": "0.1",
+  "version": "1.0.1",
   "license": "MIT",
-  "homepage": "http://rocketbot.co/",
+  "homepage": "http://rocketbot.com/",
   "linux": true,
   "windows": true,
   "mac": true,
@@ -41,6 +41,10 @@
               "es": "Numero a convertir",
               "en": "Number to be converted"
             },
+            "description": {
+              "es": "Numero a convertir a literal",
+              "en": "Number to be converted to literal"
+            },
             "help": {
               "es": "En caso de usar una variable, usar con {}",
               "en": "If using a variable, use with {}"
@@ -54,6 +58,10 @@
             "title": {
               "es": "Resultado",
               "en": "Result"
+            },
+            "description": {
+              "es": "Variable donde se guardara el resultado",
+              "en": "Variable where the result will be saved"
             },
             "help": {
               "es": "En caso de usar una variable, usar con {}",
